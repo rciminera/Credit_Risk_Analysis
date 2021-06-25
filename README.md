@@ -2,7 +2,7 @@
 
 ## Overview
 
-The purpose of this analysis is to create machine learning models to predict credit risk.
+The purpose of this analysis is to create supervised machine learning models to predict credit risk and to recommend which model is most effective. A
 
 Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. Different techniques were employed to train and evaluate models with unbalanced classes.
 
@@ -11,15 +11,14 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 - SMOTEEN Combinatorial Model of Over and Undersampling techniques
 - Ensemble Classifier Models
 
-To do this Imbalanced-learn and scikit-learn libraries were used with Jupyter notebook to preprocess and then analyze the output to build and evaluate models using resampling.
- 
-1. Oversampling using the RandomOverSampler and SMOTE algorithms
-2.  Oversampling using the SMOTE algorithms
-3.  Undersampling using the ClusterCentroids algorithm
-4.  Combinatorial approach of over- and undersampling using the SMOTEENN algorithm
+JupyterNotebook was used for this analysis along with Imbalanced-learn and scikit-learn machine learning libraries. 
+
+The link to the resampling notebook can be found here: [credit_risk_resampling.ipynb](https://github.com/rciminera/Credit_Risk_Analysis/blob/main/Notebook/credit_risk_resampling.ipynb)
+
+The link to the Ensemble Classifier notebook can be found here: [credit_risk_resampling.ipynb](https://github.com/rciminera/Credit_Risk_Analysis/blob/main/Notebook/credit_risk_resampling.ipynb)
 
 
-The performance of these models was then evaluated and a recommendation was made on whether they should be used to predict credit risk.
+
 
 ## Results:
 
