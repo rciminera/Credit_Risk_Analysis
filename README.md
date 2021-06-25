@@ -27,7 +27,7 @@ There is a bulleted list that describes the balanced accuracy score and the prec
 
 ### I. Resampling Models
 
-Three resampling models were each used to create a predicted outcome and an accuracy score, confusion, matrix, and classification report were created for each.
+Three resampling models were each used to create a predicted outcome and an accuracy score, confusion, matrix, and classification report were created for each, with varying results.
 
 RandomOverSampler Results: 
 
@@ -43,10 +43,7 @@ RandomOverSampler Results:
 
 ### II. SMOTEENN Combinatorial Model
 
-The combinatorial SMOTEENN algorithm does the following:
-- An accuracy score for the model is calculated 
-- A confusion matrix has been generated
-- An imbalanced classification report has been generated 
+The SMOTTEEN Combinatorial model of over and undersampling was then used to create a predicted outcome and an accuracy score, confusion, matrix, and classification report.  Of all the sampling models, this delivered the best accuracy result.
 
 <img src="https://github.com/rciminera/Credit_Risk_Analysis/blob/main/Screenshots/combination.png" width = "800" >
 
