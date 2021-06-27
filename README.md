@@ -61,10 +61,10 @@ The SMOTTEEN Combinatorial model of over and undersampling was then used to crea
 
 ## Summary:
 
-Based on the results of the six different supervised machine learning models, the model with the best accuracy is the EasyEnsemble Classifier.  The accuracy score of 93
+Based on the results of the six different supervised machine learning models, the recommended model to use for the determination of credit risk is the EasyEnsemble Classifier.  With an accuracy score of 93.17%, the EasyEnsmble Classifier outperformed the other five models in the analysis by a significant margin.
 
+<img src="https://github.com/rciminera/Credit_Risk_Analysis/blob/main/Screenshots/bac_comparsion.png" width = "400">
 
-There is a recommendation on which model to use, or there is no recommendation with a justification
 
 #
 #
