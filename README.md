@@ -28,17 +28,15 @@ Following are the results of the six supervised machine learning models.
 
 Three resampling models were each used to create a predicted outcome.  These models were: Random Oversampling, SMOTE Oversampling, and Undersampling.  A balanced accuracy score, confusion, matrix, and balanced classification report were created for each, with varying results. 
 
-Random Oversampling:
 
 <img src="https://github.com/rciminera/Credit_Risk_Analysis/blob/main/Screenshots/random.png" width = "800" >
 
 
-Smote Oversampling:
+
 
 <img src="https://github.com/rciminera/Credit_Risk_Analysis/blob/main/Screenshots/smote.png" width = "800" >
 
 
-Undersampling
 
 <img src="https://github.com/rciminera/Credit_Risk_Analysis/blob/main/Screenshots/undersampling.png" width = "800" >
 
@@ -53,11 +51,10 @@ The SMOTTEEN Combinatorial model of over and undersampling was then used to crea
 
 ### III. Use Ensemble Classifiers to Predict Credit Risk
 
-BalancedRandomForestClassifier algorithm:
 
 <img src="https://github.com/rciminera/Credit_Risk_Analysis/blob/main/Screenshots/bal_rfc.png" width = "800" >
 
-EasyEnsembleClassifier algorithm:
+
 
 <img src="https://github.com/rciminera/Credit_Risk_Analysis/blob/main/Screenshots/easy_ensemble.png" width = "800" >
 
@@ -69,9 +66,10 @@ Based on the results of the six different supervised machine learning models, th
 
 There is a recommendation on which model to use, or there is no recommendation with a justification
 
+#
+#
 
-
-## Appendix
+### Appendix
 
 Glossary of Definitions:
 
