@@ -22,19 +22,23 @@ The link to the Ensemble Classifier notebook can be found here: [credit_risk_res
 
 ## Results:
 
-There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models 
+Following are the results of the six supervised machine learning models.
 
 ### I. Resampling Models
 
-Three resampling models were each used to create a predicted outcome and an accuracy score, confusion, matrix, and classification report were created for each, with varying results.
+Three resampling models were each used to create a predicted outcome.  These models were: Random Oversampling, SMOTE Oversampling, and Undersampling.  A balanced accuracy score, confusion, matrix, and balanced classification report were created for each, with varying results. 
 
-RandomOverSampler Results: 
+Random Oversampling:
 
-<img src="https://github.com/rciminera/Credit_Risk_Analysis/blob/main/Screenshots/random_oversampling.png" width = "800" >
+<img src="https://github.com/rciminera/Credit_Risk_Analysis/blob/main/Screenshots/random.png" width = "800" >
 
 
-<img src="https://github.com/rciminera/Credit_Risk_Analysis/blob/main/Screenshots/smote_oversampling.png" width = "800" >
+Smote Oversampling:
 
+<img src="https://github.com/rciminera/Credit_Risk_Analysis/blob/main/Screenshots/smote.png" width = "800" >
+
+
+Undersampling
 
 <img src="https://github.com/rciminera/Credit_Risk_Analysis/blob/main/Screenshots/undersampling.png" width = "800" >
 
@@ -44,26 +48,24 @@ RandomOverSampler Results:
 
 The SMOTTEEN Combinatorial model of over and undersampling was then used to create a predicted outcome and an accuracy score, confusion, matrix, and classification report.  Of all the sampling models, this delivered the best accuracy result.
 
-<img src="https://github.com/rciminera/Credit_Risk_Analysis/blob/main/Screenshots/combination.png" width = "800" >
+<img src="https://github.com/rciminera/Credit_Risk_Analysis/blob/main/Screenshots/smoteenn.png" width = "800" >
 
 
 ### III. Use Ensemble Classifiers to Predict Credit Risk
 
-The BalancedRandomForestClassifier algorithm does the following:
-- An accuracy score for the model is calculated 
-- A confusion matrix has been generated
-- An imbalanced classification report has been generated
-- The features are sorted in descending order by feature importance
+BalancedRandomForestClassifier algorithm:
 
-The EasyEnsembleClassifier algorithm does the following:
-- An accuracy score of the model is calculated
-- A confusion matrix has been generated
-- An imbalanced classification report has been generated
+<img src="https://github.com/rciminera/Credit_Risk_Analysis/blob/main/Screenshots/bal_rfc.png" width = "800" >
+
+EasyEnsembleClassifier algorithm:
+
+<img src="https://github.com/rciminera/Credit_Risk_Analysis/blob/main/Screenshots/easy_ensemble.png" width = "800" >
 
 
 ## Summary:
 
-There is a summary of the results
+Based on the results of the six different supervised machine learning models, the model with the best accuracy is the EasyEnsemble Classifier.  The accuracy score of 93
+
 
 There is a recommendation on which model to use, or there is no recommendation with a justification
 
